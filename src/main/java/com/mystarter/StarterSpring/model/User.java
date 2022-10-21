@@ -7,7 +7,7 @@ import java.util.Set;
 public class User {
 
     @Id
-    private String userName;
+    private String username;
     private String userFirstName;
     private String userLastName;
     private String userPassword;
@@ -23,12 +23,12 @@ public class User {
     )
     private Set<Role> role;
 
-    public String getUserName() {
-        return userName;
+    public String getUsername() {
+        return username;
     }
 
-    public void setUserName(String userName) {
-        this.userName = userName;
+    public void setUsername(String username) {
+        this.username = username;
     }
 
     public String getUserFirstName() {
