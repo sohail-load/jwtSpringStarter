@@ -3,6 +3,7 @@ package com.mystarter.StarterSpring.model;
 public class JwtRequest {
 
     private String username;
+    private String userPassword;
 
     public String getUsername() {
         return username;
@@ -19,6 +20,4 @@ public class JwtRequest {
     public void setUserPassword(String userPassword) {
         this.userPassword = userPassword;
     }
-
-    private String userPassword;
 }
