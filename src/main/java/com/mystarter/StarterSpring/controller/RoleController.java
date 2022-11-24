@@ -3,12 +3,14 @@ package com.mystarter.StarterSpring.controller;
 import com.mystarter.StarterSpring.model.Role;
 import com.mystarter.StarterSpring.service.RoleService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-    public class RoleController {
+@CrossOrigin
+public class RoleController {
 
     @Autowired
     private RoleService roleService;
